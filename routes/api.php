@@ -19,3 +19,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::get('siswa', 'SiswaController@index');
+Route::post('siswa', 'SiswaController@create');
